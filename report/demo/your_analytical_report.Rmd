@@ -1,0 +1,22 @@
+---
+title: "Untitled"
+author: "Hao"
+date: "August 8, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = TRUE, message = FALSE)
+knitr::opts_knit$set(root.dir = "../..")
+```
+
+```{r}
+source("manipulation/fetch.R")
+source("report/demo/your_analytical_codes.R")
+```
+
+Here is my awesome table
+```{r}
+kable(summary_1, col.names = c("variable", "Vist 1", "Visit 2"))
+```
