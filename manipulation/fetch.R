@@ -6,6 +6,8 @@ source("manipulation/global.R")
                                         # token = auth$token)$data)
 # db_version <- as.character(Sys.time())
 
+# test
+
 db <- read_csv("data/ShinyDemoDatabase_generated_data_2016_03_25.csv")
 
 # In the next few steps, you should split data into smaller pieces
